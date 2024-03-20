@@ -19,4 +19,8 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MonAppBlazor.Service\MonAppBlazor.Service.csproj" />
+  </ItemGroup>
+
 </Project>

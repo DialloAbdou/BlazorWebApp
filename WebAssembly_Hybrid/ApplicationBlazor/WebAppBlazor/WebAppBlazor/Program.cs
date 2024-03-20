@@ -1,3 +1,4 @@
+using MonAppBlazor.Service;
 using WebAppBlazor.Client.Pages;
 using WebAppBlazor.Components;
 
@@ -7,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+builder.Services.AddScoped<WeatherForceCastService>();
 
 var app = builder.Build();
 

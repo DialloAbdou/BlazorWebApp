@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using MonAppBlazor.Service;
 
 namespace MonAppBlazor.Mobile
 {
@@ -19,6 +20,7 @@ namespace MonAppBlazor.Mobile
 #if DEBUG
     		builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
+            builder.Services.AddSingleton<WeatherForceCastService>();
 #endif
 
             return builder.Build();

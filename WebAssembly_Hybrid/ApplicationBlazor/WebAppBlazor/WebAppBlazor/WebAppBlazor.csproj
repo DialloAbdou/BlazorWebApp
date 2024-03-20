@@ -12,6 +12,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\MonAppBlazor.Component\MonAppBlazor.Component.csproj" />
+    <ProjectReference Include="..\..\MonAppBlazor.Service\MonAppBlazor.Service.csproj" />
+    <ProjectReference Include="..\..\MonAppBlazzor.Model\MonAppBlazzor.Model.csproj" />
     <ProjectReference Include="..\WebAppBlazor.Client\WebAppBlazor.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.1" />
   </ItemGroup>
