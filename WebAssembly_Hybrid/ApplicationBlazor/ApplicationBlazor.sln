@@ -11,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonAppBlazor.Mobile", "MonA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonAppBlazor.Component", "MonAppBlazor.Component\MonAppBlazor.Component.csproj", "{E383B657-CA64-40A7-8C8E-585F3AE60B6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonAppBlazzor.Model", "MonAppBlazzor.Model\MonAppBlazzor.Model.csproj", "{4D09FCBE-A830-4B21-B5F2-64C07D7117FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonAppBlazzor.Model", "MonAppBlazzor.Model\MonAppBlazzor.Model.csproj", "{4D09FCBE-A830-4B21-B5F2-64C07D7117FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonAppBlazor.Service", "MonAppBlazor.Service\MonAppBlazor.Service.csproj", "{20952852-11C6-4536-92D0-C1266C20BD65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonAppBlazor.Service", "MonAppBlazor.Service\MonAppBlazor.Service.csproj", "{20952852-11C6-4536-92D0-C1266C20BD65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
