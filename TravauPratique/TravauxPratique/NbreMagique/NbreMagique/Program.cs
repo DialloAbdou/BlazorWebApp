@@ -1,6 +1,5 @@
-using MonAppBlazor.Service;
-using WebAppBlazor.Client.Pages;
-using WebAppBlazor.Components;
+using NbreMagique.Client.Pages;
+using NbreMagique.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +7,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
-builder.Services.AddScoped<WeatherForceCastService>();
 
 var app = builder.Build();
 
@@ -28,8 +26,6 @@ app.UseAntiforgery();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(
-    typeof(WebAppBlazor.Client._Imports).Assembly,
-    typeof(MonAppBlazor.Component._Imports).Assembly);
+    .AddAdditionalAssemblies(typeof(NbreMagique.Client._Imports).Assembly);
 
 app.Run();
