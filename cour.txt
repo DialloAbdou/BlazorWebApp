@@ -1,0 +1,33 @@
+
+**Blazor : est une technologie ASP.Net de microsoft pour réaliser des application graphiques riches et interactives
+
+**Blazor permet de réaliser des applications web, mais pas que il est possible d'utiliser Blazor 
+	dans des applications natives (mobile ou desktop)
+
+les differentes variantes de Blazor
+
+*** Blazor WebApp - Server
+
+le moteur s'execute sur le serveur et renvoie aux clients des instructions
+pour mettre à jour le DOM
+
+le client maintient un lien avec le serveur par 
+le biais d'un pont WebSocket si l'interactivité est nécessaire
+
+
+**** Blazor WebApp - WebAssembly
+
+Le runtime .Net (spécifique) ainsi que l'application est l'application
+est télécharger sur le poste du client
+
+100% du code du client est exécuté sur le poste du client
+
+***Blazor Hybrid
+
+les composants blazor fonctionne dans un composant natif(navigateur/Webview de la plateforme cible)
+
+cette dernier expose des accès à certaines APIs natives
+
+StreamRendering: facilite le chargment des données côté Blazor serveur
+
+WebSocket : c'est le pont qu'il etablit entre le serveur et le client

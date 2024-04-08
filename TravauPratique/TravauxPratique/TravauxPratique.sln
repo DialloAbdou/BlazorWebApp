@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbreMagique", "NbreMagique\NbreMagique\NbreMagique.csproj", "{8A80E4A5-8F61-4565-8959-1079EC9D1567}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbreMagique", "NbreMagique\NbreMagique\NbreMagique.csproj", "{8A80E4A5-8F61-4565-8959-1079EC9D1567}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbreMagique.Client", "NbreMagique\NbreMagique.Client\NbreMagique.Client.csproj", "{702A0637-CF93-4DD6-A69A-A94C8A55CC02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbreMagique.Client", "NbreMagique\NbreMagique.Client\NbreMagique.Client.csproj", "{702A0637-CF93-4DD6-A69A-A94C8A55CC02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbreMagique.Mobile", "NbreMagique.Mobile\NbreMagique.Mobile.csproj", "{45A2484F-9431-411C-9234-39A857B745FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbreMagiqueBlazor.Component", "NbreMagiqueBlazor.Component\NbreMagiqueBlazor.Component.csproj", "{591DECE4-00AB-4559-B304-4FBE0A5F6278}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,16 @@ Global
 		{702A0637-CF93-4DD6-A69A-A94C8A55CC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{702A0637-CF93-4DD6-A69A-A94C8A55CC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{702A0637-CF93-4DD6-A69A-A94C8A55CC02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A2484F-9431-411C-9234-39A857B745FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A2484F-9431-411C-9234-39A857B745FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A2484F-9431-411C-9234-39A857B745FC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{45A2484F-9431-411C-9234-39A857B745FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A2484F-9431-411C-9234-39A857B745FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A2484F-9431-411C-9234-39A857B745FC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{591DECE4-00AB-4559-B304-4FBE0A5F6278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591DECE4-00AB-4559-B304-4FBE0A5F6278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591DECE4-00AB-4559-B304-4FBE0A5F6278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591DECE4-00AB-4559-B304-4FBE0A5F6278}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

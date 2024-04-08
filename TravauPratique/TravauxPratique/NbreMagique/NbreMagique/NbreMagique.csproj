@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\NbreMagique.Client\Pages\Counter.razor.cs" Link="Counter.razor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NbreMagiqueBlazor.Component\NbreMagiqueBlazor.Component.csproj" />
     <ProjectReference Include="..\NbreMagique.Client\NbreMagique.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.3" />
   </ItemGroup>
