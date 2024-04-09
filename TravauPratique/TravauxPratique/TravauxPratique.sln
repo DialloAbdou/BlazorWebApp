@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbreMagique", "NbreMagique\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbreMagique.Client", "NbreMagique\NbreMagique.Client\NbreMagique.Client.csproj", "{702A0637-CF93-4DD6-A69A-A94C8A55CC02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbreMagique.Mobile", "NbreMagique.Mobile\NbreMagique.Mobile.csproj", "{45A2484F-9431-411C-9234-39A857B745FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbreMagique.Mobile", "NbreMagique.Mobile\NbreMagique.Mobile.csproj", "{45A2484F-9431-411C-9234-39A857B745FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbreMagiqueBlazor.Component", "NbreMagiqueBlazor.Component\NbreMagiqueBlazor.Component.csproj", "{591DECE4-00AB-4559-B304-4FBE0A5F6278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbreMagiqueBlazor.Component", "NbreMagiqueBlazor.Component\NbreMagiqueBlazor.Component.csproj", "{591DECE4-00AB-4559-B304-4FBE0A5F6278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbreMagique.Model", "NbreMagique.Model\NbreMagique.Model.csproj", "{E7875527-EAFE-430B-B633-52DDC72C1879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbreMagique.Services", "NbreMagique.Services\NbreMagique.Services.csproj", "{2FCE747A-2CE1-4A62-8342-A65D5EBB6178}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{591DECE4-00AB-4559-B304-4FBE0A5F6278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{591DECE4-00AB-4559-B304-4FBE0A5F6278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{591DECE4-00AB-4559-B304-4FBE0A5F6278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7875527-EAFE-430B-B633-52DDC72C1879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7875527-EAFE-430B-B633-52DDC72C1879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7875527-EAFE-430B-B633-52DDC72C1879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7875527-EAFE-430B-B633-52DDC72C1879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FCE747A-2CE1-4A62-8342-A65D5EBB6178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FCE747A-2CE1-4A62-8342-A65D5EBB6178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FCE747A-2CE1-4A62-8342-A65D5EBB6178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FCE747A-2CE1-4A62-8342-A65D5EBB6178}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

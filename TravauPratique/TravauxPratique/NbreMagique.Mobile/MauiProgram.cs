@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using NbreMagique.Services;
 
 namespace NbreMagique.Mobile
 {
@@ -15,6 +16,7 @@ namespace NbreMagique.Mobile
                 });
 
             builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddSingleton<WeatherForecastService>();
 
 #if DEBUG
     		builder.Services.AddBlazorWebViewDeveloperTools();

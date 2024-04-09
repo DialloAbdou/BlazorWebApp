@@ -19,4 +19,9 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NbreMagique.Model\NbreMagique.Model.csproj" />
+    <ProjectReference Include="..\NbreMagique.Services\NbreMagique.Services.csproj" />
+  </ItemGroup>
+
 </Project>

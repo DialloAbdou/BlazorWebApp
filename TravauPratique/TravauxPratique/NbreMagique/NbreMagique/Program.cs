@@ -1,5 +1,6 @@
 using NbreMagique.Client.Pages;
 using NbreMagique.Components;
+using NbreMagique.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+builder.Services.AddSingleton<WeatherForecastService>();
 
 var app = builder.Build();
 
