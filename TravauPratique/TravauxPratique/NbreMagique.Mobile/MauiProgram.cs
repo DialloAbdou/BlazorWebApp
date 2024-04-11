@@ -23,6 +23,7 @@ namespace NbreMagique.Mobile
     		builder.Logging.AddDebug();
 #endif
 
+
             return builder.Build();
         }
     }

@@ -28,6 +28,8 @@ app.UseAntiforgery();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(NbreMagique.Client._Imports).Assembly);
+    .AddAdditionalAssemblies(
+typeof(NbreMagique.Client._Imports).Assembly,
+typeof(NbreMagiqueBlazor.Component._Imports).Assembly);
 
 app.Run();

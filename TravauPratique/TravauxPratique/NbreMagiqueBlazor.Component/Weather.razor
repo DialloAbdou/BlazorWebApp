@@ -33,14 +33,4 @@ else
     </table>
 }
 
-@code {
-    private WeatherForecast[]? forecasts;
 
-    protected override async Task OnInitializedAsync()
-    {
-
-        forecasts = await ForecastService.GetWeatherForecastsAsync();
-    }
-
-
-}

@@ -11,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbreMagique.Mobile", "NbreM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbreMagiqueBlazor.Component", "NbreMagiqueBlazor.Component\NbreMagiqueBlazor.Component.csproj", "{591DECE4-00AB-4559-B304-4FBE0A5F6278}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbreMagique.Model", "NbreMagique.Model\NbreMagique.Model.csproj", "{E7875527-EAFE-430B-B633-52DDC72C1879}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbreMagique.Model", "NbreMagique.Model\NbreMagique.Model.csproj", "{E7875527-EAFE-430B-B633-52DDC72C1879}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbreMagique.Services", "NbreMagique.Services\NbreMagique.Services.csproj", "{2FCE747A-2CE1-4A62-8342-A65D5EBB6178}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbreMagique.Services", "NbreMagique.Services\NbreMagique.Services.csproj", "{2FCE747A-2CE1-4A62-8342-A65D5EBB6178}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
