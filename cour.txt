@@ -31,3 +31,7 @@ cette dernier expose des accès à certaines APIs natives
 StreamRendering: facilite le chargment des données côté Blazor serveur
 
 WebSocket : c'est le pont qu'il etablit entre le serveur et le client
+
+Cycle de Vie d'un Composant :
+un composant peut passer à plusieurs étapes et certains vont se repter en fonction comment vous souhaiter que votre composant réagissent,
+selon ce que vous desirerz 
