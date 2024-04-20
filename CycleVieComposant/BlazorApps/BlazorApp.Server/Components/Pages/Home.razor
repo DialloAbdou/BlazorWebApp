@@ -1,9 +1,17 @@
 ﻿@page "/"
 
 <PageTitle>Home</PageTitle>
+<ul>
 
-<h1>Hello, world!</h1>
+  @foreach (var step in _steps)
+  {
+        <li>@step</li>
+  }
+</ul>
 
-Welcome to your new app.
+<p>
+    @_apiResponse
+</p>
+
 
 

@@ -11,7 +11,11 @@
 </head>
 
 <body>
-    <Routes @rendermode="InteractiveServer" />
+    @* <Routes @rendermode="InteractiveServer" /> *@
+    @* <Routes @rendermode="@(new InteractiveServerRenderMode(false))" /> *@
+    <Routes @rendermode="@(new InteractiveServerRenderMode(true))" />
+
+
     <script src="_framework/blazor.web.js"></script>
 </body>
 
