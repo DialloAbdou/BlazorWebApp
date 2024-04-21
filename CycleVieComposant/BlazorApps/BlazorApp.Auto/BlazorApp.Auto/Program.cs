@@ -1,4 +1,4 @@
-using BlazorApp.Components;
+using BlazorApp.Auto.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +25,6 @@ app.UseAntiforgery();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(BlazorApp.Client._Imports).Assembly);
+    .AddAdditionalAssemblies(typeof(BlazorApp.Auto.Client._Imports).Assembly);
 
 app.Run();

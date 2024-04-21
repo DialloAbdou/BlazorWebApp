@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="/" />
     <link rel="stylesheet" href="app.css" />
-    <link rel="stylesheet" href="BlazorApp.styles.css" />
-    <HeadOutlet />
+    <link rel="stylesheet" href="BlazorApp.Auto.styles.css" />
+    <HeadOutlet @rendermode="InteractiveAuto" />
 </head>
 
 <body>
-    <Routes />
+    <Routes @rendermode="InteractiveAuto" />
     <script src="_framework/blazor.web.js"></script>
 </body>
 
