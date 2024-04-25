@@ -15,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.WASM", "BlazorApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Shared", "BlazorApp.Shared\BlazorApp.Shared.csproj", "{B652459F-C513-4CC1-999B-17420336C46E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp.Auto", "BlazorApp.Auto\BlazorApp.Auto\BlazorApp.Auto.csproj", "{C16B3AA9-AA2B-435E-B743-5E5831B28B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Auto", "BlazorApp.Auto\BlazorApp.Auto\BlazorApp.Auto.csproj", "{C16B3AA9-AA2B-435E-B743-5E5831B28B7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp.Auto.Client", "BlazorApp.Auto\BlazorApp.Auto.Client\BlazorApp.Auto.Client.csproj", "{6376AFEA-F922-4442-9306-87669F3754FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Auto.Client", "BlazorApp.Auto\BlazorApp.Auto.Client\BlazorApp.Auto.Client.csproj", "{6376AFEA-F922-4442-9306-87669F3754FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

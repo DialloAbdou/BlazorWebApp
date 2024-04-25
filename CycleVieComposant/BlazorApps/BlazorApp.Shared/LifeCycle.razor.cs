@@ -15,6 +15,7 @@ namespace BlazorApp.Shared
 
         private string _apiResponse;
         List<string> _steps = new List<string>();
+        private string ? _var= "Valeur Initiale";
         protected override void OnInitialized()
         {
             _steps.Add(nameof(OnInitialized));

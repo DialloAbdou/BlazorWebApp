@@ -1,4 +1,17 @@
 ﻿@page "/"
-@rendermode @(new InteractiveServerRenderMode(false))
+@rendermode RenderMode.InteractiveServer
+
 <PageTitle>Home</PageTitle>
-<BlazorApp.Shared.LifeCycle/>
+
+<BlazorApp.Shared.LifeCycle />
+
+<p>
+    information :@Data
+</p>
+
+@code {
+    [SupplyParameterFromQuery]
+    public string? Data { get; set; }
+
+
+}
