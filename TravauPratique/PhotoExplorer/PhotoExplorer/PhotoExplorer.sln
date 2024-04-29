@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{2EEC2E6C-D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoExplorer.Api", "..\mod2-tp-api-sources\PhotoExplorer.Api.csproj", "{1BF06FDA-9027-4D96-923E-9443B1A79460}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoExplorer.Manager", "..\ui\PhotoExplorer.Manager\PhotoExplorer.Manager.csproj", "{779B83E4-184F-43F7-AB38-9BB96758ED1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoExplorer.Explorer", "PhotoExplorer.Explorer\PhotoExplorer.Explorer.csproj", "{BBD1EAE4-3B06-4A9A-A06F-B6BD521F89FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoExplorer.Mobile", "PhotoExplorer.Mobile\PhotoExplorer.Mobile.csproj", "{A975FD6D-CEFA-439C-AEB5-FD1582C826B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +27,29 @@ Global
 		{1BF06FDA-9027-4D96-923E-9443B1A79460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BF06FDA-9027-4D96-923E-9443B1A79460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BF06FDA-9027-4D96-923E-9443B1A79460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779B83E4-184F-43F7-AB38-9BB96758ED1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779B83E4-184F-43F7-AB38-9BB96758ED1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779B83E4-184F-43F7-AB38-9BB96758ED1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779B83E4-184F-43F7-AB38-9BB96758ED1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD1EAE4-3B06-4A9A-A06F-B6BD521F89FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD1EAE4-3B06-4A9A-A06F-B6BD521F89FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD1EAE4-3B06-4A9A-A06F-B6BD521F89FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD1EAE4-3B06-4A9A-A06F-B6BD521F89FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A975FD6D-CEFA-439C-AEB5-FD1582C826B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A975FD6D-CEFA-439C-AEB5-FD1582C826B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A975FD6D-CEFA-439C-AEB5-FD1582C826B7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A975FD6D-CEFA-439C-AEB5-FD1582C826B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A975FD6D-CEFA-439C-AEB5-FD1582C826B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A975FD6D-CEFA-439C-AEB5-FD1582C826B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1BF06FDA-9027-4D96-923E-9443B1A79460} = {70C04F8E-BBEC-4AEA-B944-E15C9C2CE137}
+		{779B83E4-184F-43F7-AB38-9BB96758ED1A} = {D47A9E50-F5F1-42F4-B269-2AAE36F670C7}
+		{BBD1EAE4-3B06-4A9A-A06F-B6BD521F89FF} = {D47A9E50-F5F1-42F4-B269-2AAE36F670C7}
+		{A975FD6D-CEFA-439C-AEB5-FD1582C826B7} = {D47A9E50-F5F1-42F4-B269-2AAE36F670C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94CEA693-9142-44E9-B174-F48187AA0303}
