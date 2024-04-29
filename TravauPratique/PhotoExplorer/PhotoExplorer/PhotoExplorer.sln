@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{70C04F8E-BBEC-4AEA-B944-E15C9C2CE137}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ui", "ui", "{D47A9E50-F5F1-42F4-B269-2AAE36F670C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{2EEC2E6C-D540-4CC9-9252-70C8F9056506}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoExplorer.Api", "..\mod2-tp-api-sources\PhotoExplorer.Api.csproj", "{1BF06FDA-9027-4D96-923E-9443B1A79460}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BF06FDA-9027-4D96-923E-9443B1A79460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF06FDA-9027-4D96-923E-9443B1A79460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF06FDA-9027-4D96-923E-9443B1A79460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF06FDA-9027-4D96-923E-9443B1A79460}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BF06FDA-9027-4D96-923E-9443B1A79460} = {70C04F8E-BBEC-4AEA-B944-E15C9C2CE137}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94CEA693-9142-44E9-B174-F48187AA0303}
+	EndGlobalSection
+EndGlobal
