@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\InitBlazorApp.Client\Pages\Counter.razor.cs" Link="Counter.razor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\InitBlazor.Composant\InitBlazor.Composant.csproj" />
     <ProjectReference Include="..\InitBlazorApp.Client\InitBlazorApp.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.3" />
   </ItemGroup>
