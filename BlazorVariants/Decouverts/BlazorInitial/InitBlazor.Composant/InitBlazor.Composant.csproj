@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\InitBlazor.Models\InitBlazor.Models.csproj" />
+    <ProjectReference Include="..\InitBlazor.Services\InitBlazor.Services.csproj" />
+  </ItemGroup>
+
 </Project>

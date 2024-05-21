@@ -66,6 +66,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\InitBlazor.Composant\InitBlazor.Composant.csproj" />
+      <ProjectReference Include="..\InitBlazor.Services\InitBlazor.Services.csproj" />
     </ItemGroup>
 
 </Project>

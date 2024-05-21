@@ -1,3 +1,4 @@
+using InitBlazor.Services;
 using InitBlazorApp.Client.Pages;
 using InitBlazorApp.Components;
 
@@ -7,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
-
+builder.Services.AddSingleton<WeatherForecastService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
